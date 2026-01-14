@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devil-Productions | Animation Recaps</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">DEVIL-PRODUCTIONS</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recap.html" class="active">Recap</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header-section reveal-on-scroll">
+      <div class="container">
+        <h1 class="page-title">Animation Recaps</h1>
+        <p class="section-text">
+          Catch up on our latest animation recaps. All videos are embedded for easy viewing.
+        </p>
+      </div>
+    </section>
+
+    <!-- VIDEO BLOCKS -->
+    <section class="video-section">
+      <div class="container">
+        <!-- VIDEO 1 -->
+        <article class="video-block fade-in-block">
+          <h2 class="video-title">Episode 1 Recap</h2>
+          <div class="video-wrapper">
+            <!-- YOUTUBE EXAMPLE: replace YOUTUBE_VIDEO_ID below -->
+            <!-- Example: https://www.youtube.com/embed/YOUTUBE_VIDEO_ID -->
+            <iframe
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID"
+              title="Episode 1 Recap"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="video-description">
+            A fast-paced recap of Episode 1, covering all the key moments and highlights.
+          </p>
+        </article>
+
+        <!-- VIDEO 2 -->
+        <article class="video-block fade-in-block">
+          <h2 class="video-title">Episode 2 Recap</h2>
+          <div class="video-wrapper">
+            <!-- GOOGLE DRIVE EXAMPLE: replace FILE_ID below -->
+            <!-- Format: https://drive.google.com/file/d/FILE_ID/preview -->
+            <iframe
+              src="https://drive.google.com/file/d/FILE_ID/preview"
+              title="Episode 2 Recap"
+              allow="autoplay">
+            </iframe>
+          </div>
+          <p class="video-description">
+            Dive into Episode 2 with this recap, focusing on new characters and plot twists.
+          </p>
+        </article>
+
+        <!-- VIDEO 3 -->
+        <article class="video-block fade-in-block">
+          <h2 class="video-title">Special Recap: Season Highlights</h2>
+          <div class="video-wrapper">
+            <!-- YOUTUBE EXAMPLE: replace YOUTUBE_VIDEO_ID_2 below -->
+            <iframe
+              src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+              title="Season Highlights Recap"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p class="video-description">
+            A compilation of the best moments from the season, edited into one cinematic recap.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Devil-Productions. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" class="social-icon youtube" aria-label="YouTube">
+          <span class="youtube-play"></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
